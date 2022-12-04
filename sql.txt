@@ -1,0 +1,11 @@
+CREATE TABLE plants(
+     plants_id INT NOT NULL,
+     c_name varchar(255) NOT NULL,
+     c_id INT NOT NULL,
+     plants_image varchar(255) NOT NULL,
+     plants_name varchar(255) NOT NULL,
+     plants_price varchar(255) NOT NULL,
+     PRIMARY KEY (plants_id),
+     FOREIGN KEY (c_id) REFERENCES category (c_id),
+     FOREIGN KEY (c_name) REFERENCES category (c_name)
+);

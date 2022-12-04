@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    width:100%;
+    margin:0 auto;
+}
+.header{
+    display:flex;
+    background:#151D3B;
+    padding-bottom:1%;
+    padding-top:1%;
+}
+.header_left{
+    flex:1;
+    padding:3% 0% 3% 16%;
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-weight: 400px;
+    color:white;
+    
+}
+.header_left h1{
+    font-weight: 30px;
+}
+
+.main_menu{
+    flex:2; 
+     align-self: center; 
+     padding-left: 10%;  
+     padding-right: 10%;
+}
+.main_menu ul{
+    display:flex;
+	list-style:none; 
+    justify-content: space-evenly;
+    align-content:center;                         
+}
+.main_menu ul li{
+}
+.main_menu ul li a{
+	text-decoration:none;   
+	color:white;           
+	font-size: 20px;
+}
+.main_menu ul li a:hover{
+	border-radius:5px;            
+	color:#FFF89A;             
+}
+
+/*flex*/
+.middle1{
+    width:100%;
+    height: auto;
+    background:*#74959A;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom:5%;
+	
+}
+.box1{
+    width:373px;
+    background:white;
+    margin-top: 5%;
+    margin-left:30px;
+}
+img{
+    width:358px;
+    height:300px;
+    
+}
+.box1-name{
+    font-family:Helvetica;
+    font-size: 25px;
+    color:#837c7a;
+    padding:15px;
+}
+.box1 p{
+    font-family:sans-serif;
+    font-size: 15px;
+    color:#736F6E;
+    padding:15px;
+}
+.footer{
+    width:100%;
+    height:auto;
+    display:flex;
+    background:#837c7a;
+}
+.left{
+    flex:1;
+    padding-top:10%;
+    padding-left:5%;
+    padding-bottom: 10%;
+    
+}
+.left h1{
+padding:10px;
+font-family:Helvetica;
+}
+.left p{
+    padding:10px;
+    font-family: sans-serif;
+}
+.icon{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:8%;
+   margin-left:-80px;
+}
+.icon img{
+   height:30px;
+   width:30px;
+   
+
+}
+.right{
+    flex:1;
+    display:flex;
+    
+    align-items: center;
+    padding-left:2%;
+}
+.right img{
+    flex:1;
+    width:200px;
+    height:300px;
+    border-radius: 200px;
+}
+.right h1{
+    flex:1;
+    padding-left:10%;
+    font-family: helvetica;
+    font-size: 30px;
+    color:
+}

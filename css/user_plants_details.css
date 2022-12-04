@@ -1,0 +1,57 @@
+*{
+ margin:0;
+ padding:0;
+}
+.details{
+	margin: auto 13%;
+	
+}
+.box1{
+	display:flex;
+	margin-top: 78px;
+}
+.box1_left{
+	flex:1;
+	
+}
+.box1-right{
+flex:1;
+padding-right: 60px;
+}
+.box1-img img{
+	width:409px;
+	height:350px;
+	
+}
+.box1-name{
+	font-size:30px;
+	font-family:tahoma;
+	padding-bottom:20px;
+}
+.box1-price{
+	font-size:20px;
+	font-family:tahoma;
+	padding-bottom:20px;
+}
+.box1-details{
+	font-size:20px;
+	font-family:tahoma;
+	padding-bottom:20px;
+}
+.box1-right input[type="submit"]
+{
+	
+    border:none;
+	outline:none;
+	height:40px;
+	background:#FB8B40;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+	
+}
+.box1-right input[type="submit"]:hover
+{
+	background:#ffc107;
+	color:#000;
+}  
